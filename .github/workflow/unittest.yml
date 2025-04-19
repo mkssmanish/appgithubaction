@@ -8,12 +8,9 @@ on:
   pull_request:
       branches:
              - main
-
-
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
     # Step 1: Checkout the code from repository
       - name: Check out code
